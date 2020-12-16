@@ -1,42 +1,14 @@
+import React, {Component} from 'react';
 import './App.css';
+import TestHeader from './TestHeader';
+import Technologiest from './Technologiest';
 
 const App = () => {
-  return (
-  <div>
-    <TeastHeader />
-    <Technologiest />    
-  </div>
-  );
-}
-
-const TeastHeader = () => {
-  return (<div>
-    <a href='#s'>wow, look at me!</a> 
-   {/* href='#s' - сделать ссылкой */}
+    return (<div>
+        <TestHeader/>
+        <Technologiest/>
     </div>);
 }
-
-const Technologiest = () => {
-  return (
-    <ul>
-        <li>css</li>
-        <li>html</li>
-        <li>js</li>
-        <li>react</li>
-      </ul>
-  );
-}
-
-
-
-
-
-
-
-
-
-
-
 
 export default App;
 
