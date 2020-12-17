@@ -1,27 +1,20 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import TestHeader from './TestHeader';
-import Technologiest from './Technologiest';
+import Header from './components/Header.jsx';
+import Profile from './components/Profile';
+import SideBar from './components/SideBar.jsx';
 
-const App = () => {
-    return (<div>
-        <TestHeader/>
-        <Technologiest/>
-    </div>);
+
+function App() {
+    return (
+        <div className='app-wrapper'>
+            <Header />
+            <SideBar />      
+            <Profile />
+        </div>);
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
 
 
 
