@@ -12,30 +12,6 @@
     grid-gap: 10px;
 }
 
-.header {
-    background-color: rgb(54, 228, 112);
-    grid-area: h;
-}
-.header img {
-    width: 80px;
-    border: darkslategray 3px solid;
-
-}
-
-.side-bar {
-    /* background-color: darksalmon; */
-    grid-area: n;
-    background-color: rgb(71, 151, 231);
-}
-
-.main-content {
-    grid-area: c;
-    background-color: dimgray;
-}
-.main-content img {
-    max-height: 300px;
-}
-
 /* .footer {
     grid-area: f;
     background-color: rgb(208, 142, 236);

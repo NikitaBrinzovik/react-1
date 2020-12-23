@@ -1,8 +1,10 @@
+import classes from './Profile.module.css'; //можно classes заменить любым именем
+
 const Profile = () => {
     return(
-        <div className='main-content'>
+        <div className={classes.mainContent}>
             <div>
-                <img src='https://tra-well.ru/wp-content/uploads/2020/08/banner-1-e1598250830985.jpg' />
+                <img src='http://retromap.ru/gallery/albums/userpics/10055/FF214d_1419161_medium.jpg' />
             </div>
             <div>
                 <img src='https://tea-homenn.ru/wp-content/uploads/2020/05/yabloko_kvadrat.jpg' />
@@ -12,10 +14,10 @@ const Profile = () => {
                 <div>
                     new posts
                 </div>
-                <div>
+                <div className={classes.item}>
                                         posts 1
                 </div>
-                <div>
+                <div className={classes.item}> 
                                     posts 2
                 </div>
             </div>

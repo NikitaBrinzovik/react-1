@@ -1,0 +1,13 @@
+.sideBar {
+    /* background-color: darksalmon; */
+    grid-area: n;
+    background-color: rgb(71, 151, 231);
+}
+
+.item {
+    color: aliceblue;
+}
+
+.item.active {
+    color: gold;
+}
