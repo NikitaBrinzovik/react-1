@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header.jsx';
-import Profile from './components/Profile';
-import SideBar from './components/SideBar.jsx';
+import Header from './components/header/Header.jsx';
+import Profile from './components/profile/Profile';
+import SideBar from './components/sidebar/SideBar.jsx';
 
 
 function App() {

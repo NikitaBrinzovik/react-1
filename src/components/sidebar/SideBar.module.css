@@ -1,7 +1,7 @@
 .sideBar {
     /* background-color: darksalmon; */
     grid-area: n;
-    background-color: rgb(71, 151, 231);
+    background-color: #a67b6a;
 }
 
 .item {
