@@ -3,15 +3,30 @@ import './App.css';
 import Header from './components/header/Header.jsx';
 import Profile from './components/profile/Profile';
 import SideBar from './components/sidebar/SideBar.jsx';
+import Dialogs from './components/Dialogs/Dialogs.jsx';
+import MyPhoto from './components/MyPhoto/MyPhoto.jsx';
+import News from './components/News/News.jsx';
+import Settings from './components/Settings/Settings.jsx';
+import {BrowserRouter, Route} from "react-router-dom";
 
 
 function App() {
     return (
+        <BrowserRouter>
         <div className='app-wrapper'>
             <Header />
-            <SideBar />      
-            <Profile />
-        </div>);
+            <SideBar />
+            <div className='app-wrapper-content'>
+                <Route path='/Dialogs' component={Dialogs}/>
+                <Route path='/Profile' component={Profile}/>
+                <Route path='/MyPhoto' component={MyPhoto}/>
+                <Route path='/News' component={News}/>
+                <Route path='/Settings' component={Settings}/>
+            </div>
+
+
+        </div>
+        </BrowserRouter>);
 }
 
 export default App;

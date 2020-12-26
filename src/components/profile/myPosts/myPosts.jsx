@@ -1,4 +1,4 @@
-import classes from './myPosts.module.css'; //можно classes заменить любым именем
+import s from './myPosts.module.css'; //можно classes заменить любым именем
 import Post from './Posts/Post';
 
 const MyPosts = () => {
@@ -11,7 +11,7 @@ const MyPosts = () => {
                 <button>send post</button>
                 <button>remove post</button>
             </div>
-            <div className={classes.item}>
+            <div className={s.item}>
                 <Post message='Hi, how are you?' numb='122'/>
                 <Post message="It's my first post" numb='12'/>
             </div>
