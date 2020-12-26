@@ -9,9 +9,6 @@
     color: aliceblue;
     text-decoration: none;
 }
-.item active {
-    color: gold;
-}
 
 .item a.activeLink {
     color: gold;

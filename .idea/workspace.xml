@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620345e3-546a-4425-992b-49e256d2e825" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/react-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyPhoto/MyPhoto.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyPhoto/MyPhoto.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Settings/Settings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Settings/Settings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/like/like.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/like/like.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/Post.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sidebar/SideBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/SideBar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,19 +46,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/profile/ProfileInfo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\profile\ProfileInfo" />
+      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Dialogs\Message" />
+      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Dialogs\Dialog" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Settings" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\News" />
-      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\MyPhot" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,8 +72,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608938249654</updated>
-      <workItem from="1608938251108" duration="9365000" />
+      <workItem from="1608938251108" duration="9754000" />
+      <workItem from="1608983829937" duration="17203000" />
     </task>
+    <task id="LOCAL-00001" summary="Route and NavLink to">
+      <created>1608948452807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608948452807</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +98,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Route and NavLink to" />
+    <option name="LAST_COMMIT_MESSAGE" value="Route and NavLink to" />
   </component>
 </project>

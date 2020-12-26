@@ -1,0 +1,31 @@
+
+.allChats {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+
+.allChats .allDialogs {
+    padding: 10px;
+    text-decoration: none;
+
+}
+.allChats .allDialogs a{
+    text-decoration: none;
+    color: brown;
+}
+
+.allChats .allDialogs .dialog {
+
+}
+
+.allChats .messages {
+    color: #fff;
+    padding: 10px;
+
+}
+
+.allChats .messages a{
+    text-decoration: none;
+    color: #282c34;
+}

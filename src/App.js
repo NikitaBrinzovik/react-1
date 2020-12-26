@@ -18,7 +18,7 @@ function App() {
             <SideBar />
             <div className='app-wrapper-content'>
                 <Route path='/Dialogs' component={Dialogs}/>
-                <Route path='/Profile' component={Profile}/>
+                <Route exact path='/Profile' component={Profile}/>
                 <Route path='/MyPhoto' component={MyPhoto}/>
                 <Route path='/News' component={News}/>
                 <Route path='/Settings' component={Settings}/>
