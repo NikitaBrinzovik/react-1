@@ -1,8 +1,12 @@
 import s from './myPosts.module.css'; //можно classes заменить любым именем
-import {postsElements} from './../Profile';
-import Post from "./Posts/Post";
 
-const MyPosts = () => {
+import Post from "./Posts/Post";
+import React from "react";
+
+
+const MyPosts = (props) => {
+
+    let postsElements = props.postsData.map(p => <Post message={p.message} numb={p.numb} id={p.id}/>);
 
 
     return (

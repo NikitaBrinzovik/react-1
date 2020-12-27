@@ -7,14 +7,15 @@
     max-height: 50px;
 }
 
-.posts{
+.posts {
     margin-top: 10px;
 }
 
-.postBlock h3{
+.postBlock h3 {
     margin-top: -1px;
 }
-.postBlock h4{
+
+.postBlock h4 {
     margin-top: -1px;
     margin-bottom: 3px;
 }

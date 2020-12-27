@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620345e3-546a-4425-992b-49e256d2e825" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/Posts/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/SideBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/SideBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608938249654</updated>
       <workItem from="1608938251108" duration="9754000" />
-      <workItem from="1608983829937" duration="33819000" />
+      <workItem from="1608983829937" duration="48190000" />
     </task>
     <task id="LOCAL-00001" summary="Route and NavLink to">
       <created>1608948452807</created>
@@ -92,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609031174328</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson26 finished">
+      <created>1609089176320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609089176320</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +131,8 @@
     <MESSAGE value="PROPS-ROUTE-NAVLINK" />
     <MESSAGE value="UI-BLL. hardcore massive)))" />
     <MESSAGE value=".map!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value=".map!!!!" />
+    <MESSAGE value="lesson26 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson26 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

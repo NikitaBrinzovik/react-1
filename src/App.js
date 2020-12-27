@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Header from './components/header/Header.jsx';
 import Profile from './components/profile/Profile';
@@ -10,53 +10,25 @@ import Settings from './components/Settings/Settings.jsx';
 import {BrowserRouter, Route} from "react-router-dom";
 
 
-function App() {
+function App(props) {
+
     return (
         <BrowserRouter>
-        <div className='app-wrapper'>
-            <Header />
-            <SideBar />
-            <div className='app-wrapper-content'>
-                <Route path='/Dialogs' component={Dialogs}/>
-                <Route exact path='/Profile' component={Profile}/>
-                <Route path='/MyPhoto' component={MyPhoto}/>
-                <Route path='/News' component={News}/>
-                <Route path='/Settings' component={Settings}/>
+            <div className='app-wrapper'>
+
+                <Header/>
+                <SideBar/>
+                <div className='app-wrapper-content'>
+                    <Route path='/Dialogs'
+                           render={() => <Dialogs dialogsData={props.dialogsData} messagesData={props.messagesData}/>}/>
+                    <Route path='/Profile' render={() => <Profile postsData={props.postsData}/>}/>
+                    <Route path='/MyPhoto' render={() => <MyPhoto/>}/>
+                    <Route path='/News' render={() => <News/>}/>
+                    <Route path='/Settings' render={() => <Settings/>}/>
+                </div>
 
             </div>
-
-
-        </div>
         </BrowserRouter>);
 }
 
 export default App;
-
-
-
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           HI-Nikita )) <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;

@@ -1,5 +1,6 @@
 import s from './Post.module.css'; //можно classes заменить любым именем
-import Likes from './like/like'; 
+import Likes from './like/like';
+
 
 const Post = (props) => {
     
