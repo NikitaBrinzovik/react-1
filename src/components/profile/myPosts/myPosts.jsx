@@ -14,6 +14,8 @@ const MyPosts = () => {
         {id: 8, message: 'Polina', numb:11}
     ]
 
+    let postsElements = postsData.map( p => <Post message={p.message} numb={p.numb} id={p.id}/>);
+
     return (
         <div className={s.postBlock}>
             <h3>My Posts</h3>
@@ -24,17 +26,10 @@ const MyPosts = () => {
                 <button>remove post</button>
             </div>
             <div className={s.posts}>
-                <Post message={postsData[0].message} numb={postsData[0].numb}/>
-                <Post message={postsData[1].message} numb={postsData[1].numb}/>
-                <Post message={postsData[2].message} numb={postsData[2].numb}/>
-                <Post message={postsData[3].message} numb={postsData[3].numb}/>
-                <Post message={postsData[4].message} numb={postsData[4].numb}/>
-                <Post message={postsData[5].message} numb={postsData[5].numb}/>
-                <Post message={postsData[6].message} numb={postsData[6].numb}/>
-                <Post message={postsData[7].message} numb={postsData[7].numb}/>
+                {postsElements}
             </div>
         </div>
     );
-}
+};
 
 export default MyPosts;

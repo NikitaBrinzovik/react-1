@@ -27,27 +27,17 @@ const Dialogs = (props) => {
         {id: 6, text:'ffffffffffff', touched:'no'}
     ]
 
+    let dialogsElements = dialogsData.map( dialog => <Dialog name={dialog.name} id={dialog.id}/>);
+    let messagesElements =messagesData.map( m => <Message text={m.text} touched={m.touched} id={m.id}/>);
 
     return (
         <div className={s.allChats}>
             <div className={s.allDialogs}>
-                <Dialog name={dialogsData[0].name} id={dialogsData[0].id}/>
-                <Dialog name={dialogsData[1].name} id={dialogsData[1].id}/>
-                <Dialog name={dialogsData[2].name} id={dialogsData[2].id}/>
-                <Dialog name={dialogsData[3].name} id={dialogsData[3].id}/>
-                <Dialog name={dialogsData[4].name} id={dialogsData[4].id}/>
-                <Dialog name={dialogsData[5].name} id={dialogsData[5].id}/>
-                <Dialog name={dialogsData[6].name} id={dialogsData[6].id}/>
-                <Dialog name={dialogsData[7].name} id={dialogsData[7].id}/>
+                {dialogsElements}
             </div>
 
             <div className={s.messages}>
-                <Message text={messagesData[0].text} touched={messagesData[0].touched}/>
-                <Message text={messagesData[1].text} touched={messagesData[1].touched}/>
-                <Message text={messagesData[2].text} touched={messagesData[2].touched}/>
-                <Message text={messagesData[3].text} touched={messagesData[3].touched}/>
-                <Message text={messagesData[4].text} touched={messagesData[4].touched}/>
-                <Message text={messagesData[5].text} touched={messagesData[5].touched}/>
+                {messagesElements}
             </div>
         </div>
     );
