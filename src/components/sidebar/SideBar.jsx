@@ -12,13 +12,13 @@ const SideBar = () => {
                 <NavLink to={'/Dialogs'} activeClassName={s.activeLink}>Messages</NavLink>
             </div>
             <div className={s.item}>
-                <a href={'/MyPhoto'}>My photo</a>
+                <NavLink to={'/MyPhoto'} activeClassName={s.activeLink}>My photo</NavLink>
             </div>
             <div className={s.item}>
-                <a href={'/News'}>News</a>
+                <NavLink to={'/News'} activeClassName={s.activeLink}>News</NavLink>
             </div>
             <div className={s.item}>
-                <a href={'/Settings'}>Settings</a>
+                <NavLink to={'/Settings'} activeClassName={s.activeLink}>Settings</NavLink>
             </div>
         </nav>
     );

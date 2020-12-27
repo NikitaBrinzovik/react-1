@@ -22,6 +22,7 @@ function App() {
                 <Route path='/MyPhoto' component={MyPhoto}/>
                 <Route path='/News' component={News}/>
                 <Route path='/Settings' component={Settings}/>
+
             </div>
 
 
