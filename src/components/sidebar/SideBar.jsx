@@ -1,5 +1,6 @@
 import s from './SideBar.module.css';
 import {NavLink} from "react-router-dom"; //можно classes заменить любым именем
+import Galer from "../News/galer";
 
 const SideBar = () => {
     return (
@@ -19,6 +20,13 @@ const SideBar = () => {
             </div>
             <div className={s.item}>
                 <NavLink to={'/Settings'} activeClassName={s.activeLink}>Settings</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to={'/Friends'} activeClassName={s.activeLink}>Friends</NavLink>
+                <div>
+                    <Galer />
+                    {/*<img src={https://to-name.ru/images/historical-events/white-movement.jpg}/>*/}
+                </div>
             </div>
         </nav>
     );

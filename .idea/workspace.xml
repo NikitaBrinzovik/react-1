@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620345e3-546a-4425-992b-49e256d2e825" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/News/galer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/galer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/Friends/Friends.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/Friends/Friends.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/SideBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/News" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +49,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\News" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\profile\ProfileInfo" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Dialogs\Message" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Dialogs\Dialog" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Settings" />
-      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\News" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608938249654</updated>
       <workItem from="1608938251108" duration="9754000" />
-      <workItem from="1608983829937" duration="55840000" />
+      <workItem from="1608983829937" duration="58688000" />
     </task>
     <task id="LOCAL-00001" summary="Route and NavLink to">
       <created>1608948452807</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609111065969</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson29 finished &#10;начал пытаться выполнить дз">
+      <created>1609119522106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609119522106</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +141,8 @@
     <MESSAGE value=".map!!!!" />
     <MESSAGE value="lesson26 finished" />
     <MESSAGE value="lesson28 finished &#10;props+map" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson28 finished &#10;props+map" />
+    <MESSAGE value="lesson29 finished &#10;начал пытаться выполнить дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson29 finished &#10;начал пытаться выполнить дз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

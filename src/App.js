@@ -7,6 +7,7 @@ import Dialogs from './components/Dialogs/Dialogs.jsx';
 import MyPhoto from './components/MyPhoto/MyPhoto.jsx';
 import News from './components/News/News.jsx';
 import Settings from './components/Settings/Settings.jsx';
+import Friends from './components/profile/Friends/Friends';
 import {BrowserRouter, Route} from "react-router-dom";
 
 
@@ -26,6 +27,7 @@ function App(props) {
                     <Route path='/MyPhoto' render={() => <MyPhoto />} />
                     <Route path='/News' render={() => <News />} />
                     <Route path='/Settings' render={() => <Settings />} />
+                    <Route path='/Friends' render={() => <Friends />} />
                 </div>
 
             </div>

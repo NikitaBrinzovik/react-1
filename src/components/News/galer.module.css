@@ -1,0 +1,6 @@
+.avaBlock img{
+    max-height: 40px;
+    max-width: 40px;
+    padding: 3px;
+    border-radius: 30px;
+}

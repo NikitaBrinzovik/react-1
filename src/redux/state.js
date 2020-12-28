@@ -38,6 +38,11 @@ let state ={
             {id: 1, src: 'https://cdnimg.rg.ru/i/gallery/a0874522/13_ac019641.jpg'},
             {id: 2, src: 'https://navegante.ru/Insignia/Down/x1_1792.jpg'}
         ]
+    },
+
+    sidebar :{
+
+
     }
 
 }
