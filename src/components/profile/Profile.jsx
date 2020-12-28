@@ -3,11 +3,11 @@ import MyPosts from './myPosts/myPosts';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = (props) => {
-    // debugger
+
     return (
         <div className={s.mainContent}>
             <ProfileInfo/>
-            <MyPosts postsData={props.postsData}/>
+            <MyPosts postsData={props.state.postsData}/>
         </div>
     );
 }

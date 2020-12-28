@@ -20,11 +20,12 @@ function App(props) {
                 <SideBar/>
                 <div className='app-wrapper-content'>
                     <Route path='/Dialogs'
-                           render={() => <Dialogs dialogsData={props.dialogsData} messagesData={props.messagesData}/>}/>
-                    <Route path='/Profile' render={() => <Profile postsData={props.postsData}/>}/>
-                    <Route path='/MyPhoto' render={() => <MyPhoto/>}/>
-                    <Route path='/News' render={() => <News/>}/>
-                    <Route path='/Settings' render={() => <Settings/>}/>
+                           render={() => <Dialogs state={props.appState.dialogsPage} />} />
+                    <Route path='/Profile'
+                           render={() => <Profile state={props.appState.profilePage} />} />
+                    <Route path='/MyPhoto' render={() => <MyPhoto />} />
+                    <Route path='/News' render={() => <News />} />
+                    <Route path='/Settings' render={() => <Settings />} />
                 </div>
 
             </div>

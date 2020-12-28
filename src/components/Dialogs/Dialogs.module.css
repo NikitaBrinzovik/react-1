@@ -30,3 +30,7 @@
     text-decoration: none;
     color: #282c34;
 }
+
+.allChats .avatar img{
+    max-height: 80px;
+}
