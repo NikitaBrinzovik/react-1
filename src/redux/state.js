@@ -33,10 +33,6 @@ let state ={
         ]
     },
 
-    sidebarPage:{
-
-    },
-
     avaPage :{
         avaData :[
             {id: 1, src: 'https://cdnimg.rg.ru/i/gallery/a0874522/13_ac019641.jpg'},
@@ -44,11 +40,18 @@ let state ={
         ]
     },
 
-    sidebar :{
+    sidebar :{}
+}
 
+export let addPost = (postMessage) => {
+    debugger
+    let newPost = {
+        id: 9,
+        message: postMessage,
+        numb: 5
+    };
 
-    }
-
+    state.profilePage.postsData.push(newPost)
 }
 
 export default state;

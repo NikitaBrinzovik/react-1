@@ -4,8 +4,11 @@
     <list default="true" id="620345e3-546a-4425-992b-49e256d2e825" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608938249654</updated>
       <workItem from="1608938251108" duration="9754000" />
-      <workItem from="1608983829937" duration="76155000" />
+      <workItem from="1608983829937" duration="79813000" />
     </task>
     <task id="LOCAL-00001" summary="Route and NavLink to">
       <created>1608948452807</created>
@@ -142,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610054166633</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lesson31+++&#10;in &quot;Диалоги&quot;: ref, onClick">
+      <created>1610057121515</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610057121515</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +181,8 @@
     <MESSAGE value="lesson29 finished &#10;dont know how to use img from state" />
     <MESSAGE value="lesson30&#10;refresh" />
     <MESSAGE value="lesson31&#10;in &quot;myPosts&quot;: ref, onClick, VirtualDOM" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson31&#10;in &quot;myPosts&quot;: ref, onClick, VirtualDOM" />
+    <MESSAGE value="lesson31+++&#10;in &quot;Диалоги&quot;: ref, onClick" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson31+++&#10;in &quot;Диалоги&quot;: ref, onClick" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

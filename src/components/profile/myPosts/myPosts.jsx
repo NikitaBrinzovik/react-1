@@ -2,6 +2,7 @@ import s from './myPosts.module.css'; //можно classes заменить лю
 
 import Post from "./Posts/Post";
 import React from "react";
+import App from "../../../App";
 
 
 const MyPosts = (props) => {
@@ -12,8 +13,9 @@ const MyPosts = (props) => {
     let newPostEl= React.createRef()
 
     let addPost = () => {
+        debugger
         let text= newPostEl.current.value;
-        alert('hey, you made new post:'+' "'+text+'"')
+        props.addPost(text);
 
     }
 
