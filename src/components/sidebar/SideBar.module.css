@@ -10,6 +10,17 @@
     text-decoration: none;
 }
 
-.item a.activeLink {
+.item a.activeLink,
+.friends a.activeLink {
     color: gold;
+}
+
+.friends{
+    padding-top: 20px;
+}
+.friends a {
+
+    font-size: large;
+    color: aliceblue;
+    text-decoration: none;
 }

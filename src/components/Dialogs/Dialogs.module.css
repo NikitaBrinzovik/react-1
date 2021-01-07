@@ -2,13 +2,16 @@
 .allChats {
     display: grid;
     grid-template-columns: 2fr 10fr;
+}
 
+.allChats img{
+    max-width: 40px;
 }
 
 .allChats .allDialogs {
     padding: 10px;
     text-decoration: none;
-
+    width: 40%;
 }
 
 .allChats .allDialogs a {
