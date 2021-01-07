@@ -9,14 +9,25 @@ const Dialogs = (props) => {
     let dialogsElements = props.state.dialogsData.map(d => <Dialog name={d.name} id={d.id} sr={d.sr}/>);
     let messagesElements = props.state.messagesData.map(m => <Message text={m.text} touched={m.touched} id={m.id}/>);
 
+    let newMessage = React.createRef();
+
+    let sendMessage = () => {
+        let newText = newMessage.current.value
+        alert(newText)
+    }
+
     return (
         <div className={s.allChats}>
+            <div className={s.newMessages}>New message:</div>
+            <div className={s.newMessages}>
+                <textarea ref={newMessage}></textarea>
+                <button onClick={sendMessage}>send</button>
+            </div>
             <div className={s.allDialogs}>
                 {dialogsElements}
             </div>
-            {/*<div className={s.avatar}>*/}
-            {/*    <img src={'https://navegante.ru/Insignia/Down/x1_1792.jpg'}/>*/}
-            {/*</div>*/}
+
+
             <div className={s.messages}>
                 {messagesElements}
             </div>

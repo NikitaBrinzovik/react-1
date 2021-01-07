@@ -1,4 +1,3 @@
-
 .allChats {
     display: grid;
     grid-template-columns: 2fr 10fr;
@@ -6,6 +5,15 @@
 
 .allChats img{
     max-width: 40px;
+}
+
+.allChats .newMessages {
+    padding: 10px;
+}
+
+.allChats .newMessages button{
+    margin-left: 5px;
+
 }
 
 .allChats .allDialogs {
@@ -19,14 +27,9 @@
     color: brown;
 }
 
-.allChats .allDialogs .dialog {
-
-}
-
 .allChats .messages {
     color: #fff;
     padding: 10px;
-
 }
 
 .allChats .messages a {
