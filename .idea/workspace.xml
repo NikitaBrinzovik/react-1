@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/sidebar/galer/gal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,11 +46,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\sidebar\galer\gal" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\News" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\profile\ProfileInfo" />
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Dialogs\Message" />
-      <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\Dialogs\Dialog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kompek\Desktop\IT_kamasutra\react\01_first_project\react-1\src\components\sidebar\galer" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608938249654</updated>
       <workItem from="1608938251108" duration="9754000" />
-      <workItem from="1608983829937" duration="79813000" />
+      <workItem from="1608983829937" duration="93169000" />
     </task>
     <task id="LOCAL-00001" summary="Route and NavLink to">
       <created>1608948452807</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610057121515</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="lesson32&#10;прокидываем callback через props">
+      <created>1610060193927</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610060193927</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +189,8 @@
     <MESSAGE value="lesson30&#10;refresh" />
     <MESSAGE value="lesson31&#10;in &quot;myPosts&quot;: ref, onClick, VirtualDOM" />
     <MESSAGE value="lesson31+++&#10;in &quot;Диалоги&quot;: ref, onClick" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson31+++&#10;in &quot;Диалоги&quot;: ref, onClick" />
+    <MESSAGE value="lesson32&#10;прокидываем callback через props" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson32&#10;прокидываем callback через props" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,3 +1,9 @@
+// import rerenderEntireTree from "../index";
+
+let rerenderEntireTree = () => {
+    console.log('fff');
+}
+
 let state ={
     profilePage :{
         postsData :[
@@ -9,7 +15,8 @@ let state ={
             {id: 6, message: 'Nikita', numb: 333},
             {id: 7, message: 'Viktoria', numb: 2},
             {id: 8, message: 'Polina', numb: 11}
-        ]
+        ],
+        newPostText: 'write here',
     },
 
     dialogsPage :{
@@ -43,8 +50,7 @@ let state ={
     sidebar :{}
 }
 
-export let addPost = (postMessage) => {
-    debugger
+export const addPost = (postMessage) => {
     let newPost = {
         id: 9,
         message: postMessage,
@@ -52,6 +58,18 @@ export let addPost = (postMessage) => {
     };
 
     state.profilePage.postsData.push(newPost)
+    state.profilePage.newPostText = '';
+    rerenderEntireTree(state);
+}
+
+export const updateNewPostText = (newText) => {
+
+    state.profilePage.newPostText = newText;
+    rerenderEntireTree(state);
+}
+
+export const subscribe = (observer) => {
+    rerenderEntireTree = observer;
 }
 
 export default state;

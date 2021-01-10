@@ -1,8 +1,6 @@
 import s from './myPosts.module.css'; //можно classes заменить любым именем
-
 import Post from "./Posts/Post";
 import React from "react";
-import App from "../../../App";
 
 
 const MyPosts = (props) => {
@@ -12,11 +10,16 @@ const MyPosts = (props) => {
 
     let newPostEl= React.createRef()
 
-    let addPost = () => {
-        debugger
+    let addPosts = () => {
         let text= newPostEl.current.value;
         props.addPost(text);
+        props.updateNewPostText('');
 
+    }
+
+    let onPostChange = () => {
+        let text= newPostEl.current.value;
+        props.updateNewPostText(text);
     }
 
     return (
@@ -25,9 +28,9 @@ const MyPosts = (props) => {
             <div>
                 <h4>new post: </h4>
                 <div>
-                    <textarea ref={newPostEl}></textarea>
+                    <textarea onChange={onPostChange} ref={newPostEl} value={props.newPostText}/>
                 </div>
-                <button onClick={addPost}>send post</button>
+                <button onClick={addPosts}>send post</button>
                 <button>remove post</button>
             </div>
             <div className={s.posts}>
