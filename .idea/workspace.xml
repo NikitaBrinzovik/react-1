@@ -4,9 +4,6 @@
     <list default="true" id="620345e3-546a-4425-992b-49e256d2e825" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myPosts/myPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
@@ -66,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608938249654</updated>
       <workItem from="1608938251108" duration="9754000" />
-      <workItem from="1608983829937" duration="93169000" />
+      <workItem from="1608983829937" duration="99504000" />
     </task>
     <task id="LOCAL-00001" summary="Route and NavLink to">
       <created>1608948452807</created>
@@ -159,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610060193927</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="lesson until 35&#10;FLUX!!!создали файл rerender, потом убрали, чтоб не было цикличности.Разбирались со State Managment. Зануление текст эрии после отправки сообщения.&#10;onChange!!! OBSERVER!!!">
+      <created>1610322175620</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610322175620</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +194,8 @@
     <MESSAGE value="lesson31&#10;in &quot;myPosts&quot;: ref, onClick, VirtualDOM" />
     <MESSAGE value="lesson31+++&#10;in &quot;Диалоги&quot;: ref, onClick" />
     <MESSAGE value="lesson32&#10;прокидываем callback через props" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson32&#10;прокидываем callback через props" />
+    <MESSAGE value="lesson until 35&#10;FLUX!!!создали файл rerender, потом убрали, чтоб не было цикличности.Разбирались со State Managment. Зануление текст эрии после отправки сообщения.&#10;onChange!!! OBSERVER!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson until 35&#10;FLUX!!!создали файл rerender, потом убрали, чтоб не было цикличности.Разбирались со State Managment. Зануление текст эрии после отправки сообщения.&#10;onChange!!! OBSERVER!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
